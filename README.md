@@ -1,7 +1,9 @@
-# 14 Singleton & Threads
+# 14 Singleton Design Pattern
 
 ## Singleton
-An example of where the singleton pattern is used is in the Spring Framework. If you add thIS to your code and run your application http://localhost:8080 you can detect that the StudentsController class is only instanciated once.
+
+### An example of where it is used
+An example of where the singleton pattern is used is in the Spring Framework. If you add this to your code and run your application http://localhost:8080 you can detect that the StudentsController class is only instanciated once.
 
 ````    
     private int time = 1;
