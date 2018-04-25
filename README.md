@@ -14,9 +14,9 @@ An example of where the singleton pattern is used is in the Spring Framework. If
 ````     
 
 
-Threads
+## Threads
 
-Multithreading and Singleton
+### Multithreading and Singleton
 
 
 
