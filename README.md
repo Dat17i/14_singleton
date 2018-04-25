@@ -37,6 +37,27 @@ An example of where the singleton pattern is used is in the Spring Framework. If
         }
     }
 ````    
+#### Proof
+
+````     
+        public static void main(String[] args) {
+
+            Singleton singleton = Singleton.getInstance();
+            System.out.println(singleton);
+
+            Singleton singleton2 = Singleton.getInstance();
+            System.out.println(singleton2);
+
+            Normal normal = new Normal();
+            System.out.println(normal);
+
+            Normal normal2 = new Normal();
+            System.out.println(normal2);
+        
+       }
+
+````     
+
 
 ## Threads
 
