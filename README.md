@@ -24,6 +24,17 @@ An example of where the singleton pattern is used is in the Spring Framework. If
         public static Singleton getInstance( ) {
             return singleton;
         }
+ 
+        protected static void singletonMethod( ) {
+            System.out.println("I am a singleton method");
+        }
+    }
+    
+    
+    public class Main {
+        public static void main(String[] args) {
+            Singleton.getInstance().demoMethod();
+        }
     }
 ````    
 
