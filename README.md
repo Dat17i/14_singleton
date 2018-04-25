@@ -37,15 +37,37 @@ An example of where the singleton pattern is used is in the Spring Framework. If
         }
     }
 ````    
+
+### Example 2 (a classic Singleton design pattern)
+
+````     
+   public class ClassicSingleton {
+
+        private static ClassicSingleton instance = null;
+        private ClassicSingleton() {
+            
+        }
+
+        public static ClassicSingleton getInstance() {
+            if(instance == null) {
+                instance = new ClassicSingleton();
+            }
+            return instance;
+        }
+   }
+
+````
+
+
 #### Proof
 
 ````     
         public static void main(String[] args) {
 
-            Singleton singleton = Singleton.getInstance();
+            ClassicSingleton singleton = ClassicSingleton.getInstance();
             System.out.println(singleton);
 
-            Singleton singleton2 = Singleton.getInstance();
+            ClassicSingleton singleton2 = ClassicSingleton.getInstance();
             System.out.println(singleton2);
 
             Normal normal = new Normal();
