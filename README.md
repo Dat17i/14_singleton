@@ -18,6 +18,8 @@ An example of where the singleton pattern is used is in the Spring Framework. If
 
 ### Multithreading and Singleton
 
+## Literature
 
+* [Java - How to Use Singleton Class](https://www.tutorialspoint.com/java/java_using_singleton.htm)
 
 &copy; KEA, clbo 2018
